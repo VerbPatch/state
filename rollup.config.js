@@ -6,7 +6,7 @@ import typescript from '@rollup/plugin-typescript';
 import pkg from './package.json' with { type: 'json' };
 
 const mybanner = `/**
- * Headless State v${pkg.version}
+ * State v${pkg.version}
  * Copyright (c) 2026 VerbPatch
  * @license GPL-3.0-or-later
  */`;
@@ -31,7 +31,7 @@ export default {
     {
       file: pkg.browser,
       format: 'umd',
-      name: 'HeadlessState',
+      name: 'State',
       sourcemap: true,
       banner: mybanner,
     },

@@ -1,7 +1,7 @@
 {
-  "name": "@verbpatch/headless-state",
+  "name": "@verbpatch/state",
   "version": "1.0.0",
-  "description": "A lightweight reactive state machine for headless UI components",
+  "description": "A lightweight reactive state machine for UI components",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
